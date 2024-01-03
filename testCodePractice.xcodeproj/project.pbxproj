@@ -13,6 +13,7 @@
 		E83F04332B43E6B1009D3980 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E83F04322B43E6B1009D3980 /* Preview Assets.xcassets */; };
 		E83F04452B43EAD5009D3980 /* testCodePracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83F04442B43EAD5009D3980 /* testCodePracticeTests.swift */; };
 		E83F044D2B45147D009D3980 /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = E83F044C2B45147D009D3980 /* ViewInspector */; };
+		E83F04502B452AEF009D3980 /* CountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83F044F2B452AEF009D3980 /* CountModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		E83F04322B43E6B1009D3980 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E83F04422B43EAD5009D3980 /* testCodePracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testCodePracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E83F04442B43EAD5009D3980 /* testCodePracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testCodePracticeTests.swift; sourceTree = "<group>"; };
+		E83F044F2B452AEF009D3980 /* CountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				E83F042D2B43E6B0009D3980 /* ContentView.swift */,
 				E83F042F2B43E6B1009D3980 /* Assets.xcassets */,
 				E83F04312B43E6B1009D3980 /* Preview Content */,
+				E83F044F2B452AEF009D3980 /* CountModel.swift */,
 			);
 			path = testCodePractice;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			files = (
 				E83F042E2B43E6B0009D3980 /* ContentView.swift in Sources */,
 				E83F042C2B43E6B0009D3980 /* testCodePracticeApp.swift in Sources */,
+				E83F04502B452AEF009D3980 /* CountModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

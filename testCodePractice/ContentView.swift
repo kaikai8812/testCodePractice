@@ -6,10 +6,11 @@
 //
 
 import SwiftUI
+import Combine
 
 struct ContentView: View {
     
-    @State var count: Int = 0
+    @ObservedObject var model: CountModel
     internal var didAppear: ((Self) -> Void)?
     
     var body: some View {
@@ -20,18 +21,18 @@ struct ContentView: View {
         .onAppear { self.didAppear?(self) }
         
         VStack {
-            Text("\(count)")
+            Text("\(model.count)")
         }
         .padding()
         VStack {
             Button("タップ") {
                 print("タップされました。")
-                count += 1
+                model.up()
             }
         }
     }
 }
 
 #Preview {
-    ContentView()
+    ContentView(model: .init())
 }
