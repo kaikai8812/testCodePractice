@@ -10,7 +10,7 @@ import Combine
 
 struct ContentView: View {
     
-    @ObservedObject var model: CountModel
+    var model: CountModel
     internal var didAppear: ((Self) -> Void)?
     
     var body: some View {

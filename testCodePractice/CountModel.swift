@@ -6,10 +6,11 @@
 //
 
 import Foundation
-import Combine
+import Observation
 
+@Observable
 class CountModel: ObservableObject {
-    @Published var count: Int = 0
+    var count: Int = 0
     
     func up() {
         self.count += 1
